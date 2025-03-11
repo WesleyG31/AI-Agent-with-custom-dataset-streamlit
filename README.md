@@ -23,7 +23,7 @@ streamlit run app.py
 ## ⚙️ Installation & Setup
 Follow these steps to run the chatbot on your machine:
 
-##🔹 1. Clone the repository
+## 1. Clone the repository
 
 ```bash
 git clone https://github.com/WesleyG31/AI-Agent-with-custom-dataset-streamlit.git
@@ -71,10 +71,10 @@ Example conversation with the chatbot:
 ```
 
 ## 📂 AI-Agent-with-custom-dataset-streamlit
- ├── 📜 app.py            # Main chatbot code
- ├── 📜 key.json   # Google Sheets credentials 
- ├── 📜 requirements.txt   # List of dependencies
- ├── 📜 README.md          # Project documentation
+ - 📜 app.py            # Main chatbot code
+ - 📜 key.json   # Google Sheets credentials 
+ - 📜 requirements.txt   # List of dependencies
+ - 📜 README.md          # Project documentation
 
 
 
