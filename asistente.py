@@ -8,7 +8,7 @@ def conectar_google_sheets():
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     
     # Leer credenciales desde el archivo JSON
-    creds = ServiceAccountCredentials.from_json_keyfile_name("C:\Todos mis documentos\google sheets api key\key.json", scope)
+    creds = ServiceAccountCredentials.from_json_keyfile_name("key.json", scope)
     client = gspread.authorize(creds)
 
     # Abrir la hoja de cálculo (CAMBIA EL NOMBRE A TU HOJA)
