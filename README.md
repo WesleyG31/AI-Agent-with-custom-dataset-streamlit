@@ -18,41 +18,57 @@ Run the following command to generate an image:
 
 ```bash
 streamlit run app.py
-
+```
 
 ## ⚙️ Installation & Setup
 Follow these steps to run the chatbot on your machine:
 
 ##🔹 1. Clone the repository
+
+```bash
 git clone https://github.com/WesleyG31/AI-Agent-with-custom-dataset-streamlit.git
 cd AI-Agent-with-custom-dataset-streamlit
+```
 
-##2. Install dependencies
+## 2. Install dependencies
+
+```bash
 pip install requirements.txt
+``` 
 
-##3. Configure Google Sheets API
+## 3. Configure Google Sheets API
+
 To allow the chatbot to access Google Sheets:
 
 Go to Google Cloud Console.
+
 Create a new project and enable Google Sheets API and Google Drive API.
+
 Create a service account under "Credentials" and download the JSON key file.
+
 Rename the file as key.json and place it in the project folder.
+
 Share your Google Sheet with the service account email (@gserviceaccount.com).
 
-##🚀 How to Use
+## 🚀 How to Use
+
 Run the following command to start the chat:
 
+```bash
 streamlit run app.py
+```
 
-
-##📜 Example Usage
+## 📜 Example Usage
+```bash
 Example conversation with the chatbot:
 👤 User: How many fraud cases are in the data?
 🤖 AI: There are 57 recorded fraud cases in the spreadsheet.
+```
 
-
-##👤 User: How many fraud cases are in the data?
+## 👤 User: How many fraud cases are in the data?
+```bash 
 🤖 AI: There are 57 recorded fraud cases in the spreadsheet.
+```
 
 ## 📂 AI-Agent-with-custom-dataset-streamlit
  ├── 📜 app.py            # Main chatbot code
